@@ -80,10 +80,10 @@ export function HeaderHome({ scrollToSection }: HeaderHomeProps) {
           )}
         </div>
         <button className="button2">
-          <a href="http://www.google.com.br">GESTÃO</a>
+          <a href="">GESTÃO</a>
         </button>
         <button className="button2">
-          <a href="http://www.google.com.br">SISTEMAS</a>
+          <a href="">SISTEMAS</a>
         </button>
       </div>
     </div>
