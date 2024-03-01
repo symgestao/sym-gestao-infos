@@ -1,0 +1,49 @@
+.bodyHomeMainContainer {
+  background-color: #f68f47;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+}
+
+.bodyHomeTextContainer {
+  width: 700px;
+}
+
+.bodyHomeImg {
+  width: 500px;
+}
+
+.buttonStart {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica, "sans-serif";
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #ffffff;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #f68f47;
+}
+
+.buttonStart:hover {
+  background: #6c6d70;
+}
+
+.buttonStart > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.buttonStart:hover svg {
+  transform: translateX(5px);
+}
+
+.buttonStart:active {
+  transform: scale(0.95);
+}

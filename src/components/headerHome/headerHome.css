@@ -1,0 +1,137 @@
+.mainHeaderHomeContainer {
+  display: flex;
+  margin: 0 45px 0 45px;
+}
+
+.headerHomeContainer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.logoSym {
+  height: 40px;
+  margin: 0 15px 0 15px;
+}
+
+.headerHomeButons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 25px;
+}
+
+/* <reset-style> ============================ */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+/* ============================ */
+/* <style for bg> ======== */
+.background {
+  border-radius: 5px;
+  border: 1px solid #727376;
+  background: rgb(255, 255, 255);
+  mix-blend-mode: luminosity;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  font-size: 25px;
+  color: #6c6d70;
+  font-family: inherit;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  /* text-transform: uppercase; */
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  font-family: "Lato", sans-serif;
+}
+
+.button2:focus,
+.button2:hover {
+  color: #6c6d70;
+}
+
+.button2:focus:after,
+.button2:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.button2:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #6c6d70;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  color: #6c6d70;
+  /* font-size: 25px; */
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.button2 {
+  background-color: transparent;
+  color: #f68f47;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px; /* Espaçamento entre os botões */
+  position: relative;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button2:hover .dropdown-menu {
+  display: block;
+}
+
+/* Add some styling for dropdown items */
+.dropdown-menu a {
+  border-bottom: 1px solid #f2f2f2;
+  display: block;
+  color: #727376;
+  padding: 10px;
+  width: 200px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.dropdown-menu a:hover {
+  /*  background-color: #f68f47; */
+  color: #f68f47;
+}

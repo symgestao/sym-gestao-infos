@@ -1,0 +1,36 @@
+.stfcMainContainer {
+  background-color: #e6e6e6;
+  display: flex;
+  gap: 100px;
+}
+
+.stfcContainer {
+  margin: 70px 70px 0;
+  display: flex;
+  gap: 100px;
+}
+
+.imgPerson1Container {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgPerson1 {
+  width: 600px;
+}
+
+.telefone {
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.pstfc1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  color: #727376;
+}

@@ -1,0 +1,47 @@
+.stfc2MainContainer {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.stfc2Cards {
+  border: 3px solid white;
+  border-radius: 15px;
+  height: 280px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stfc2MainContainer.in-view {
+  opacity: 1;
+}
+
+.stfc2Cards.in-view {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.stfcCardsP {
+  text-align: center;
+  color: #727376;
+}
+
+.thick-check-mark {
+  width: 19px;
+  height: 33px;
+  border: 10px solid #727376;
+  border-left: 0;
+  border-top: 0;
+  transform: rotate(45deg);
+}

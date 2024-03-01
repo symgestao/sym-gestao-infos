@@ -1,0 +1,33 @@
+.stfc3MainContainer {
+  /* background-color: #f68f47; */
+  background-color: #f68f47;
+  text-align: center;
+  /* padding: 40px; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.duvidas {
+  margin: 0;
+  color: #727376;
+}
+
+.duvidash4 {
+  color: #727376;
+  padding: 0;
+}
+
+.fanvil3 {
+  width: 800px;
+  margin-right: 140px;
+}
+
+.stfc3Container {
+  width: 900px;
+  border: 3px solid white;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
