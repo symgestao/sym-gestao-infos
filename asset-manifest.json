@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/sym-gestao-infos/static/css/main.f855e6bc.css",
-    "main.js": "/sym-gestao-infos/static/js/main.b0eecb60.js",
-    "static/js/453.ed3810f9.chunk.js": "/sym-gestao-infos/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/sym-gestao-infos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/sym-gestao-infos/static/css/main.39508c97.css",
+    "main.js": "/sym-gestao-infos/static/js/main.2ac1ba73.js",
+    "static/media/telefone.png": "/sym-gestao-infos/static/media/telefone.2f8c8f54e50528fee76e.png",
+    "static/media/tel.png": "/sym-gestao-infos/static/media/tel.db606cf7bc2f5905ecdd.png",
+    "static/media/img1.png": "/sym-gestao-infos/static/media/img1.04dc886d0ab008f59381.png",
+    "static/media/angry.png": "/sym-gestao-infos/static/media/angry.4792077dbeb6c68ad27d.png",
+    "static/media/SymSGC.png": "/sym-gestao-infos/static/media/SymSGC.0deba3026229809f780d.png",
+    "static/media/LogoSym.png": "/sym-gestao-infos/static/media/LogoSym.12a672ff7ae56213eec1.png",
+    "static/media/oi.png": "/sym-gestao-infos/static/media/oi.597d49507805f79bbfa2.png",
+    "static/media/fanvil.png": "/sym-gestao-infos/static/media/fanvil.12b2458b28754c4870a8.png",
     "index.html": "/sym-gestao-infos/index.html",
-    "main.f855e6bc.css.map": "/sym-gestao-infos/static/css/main.f855e6bc.css.map",
-    "main.b0eecb60.js.map": "/sym-gestao-infos/static/js/main.b0eecb60.js.map",
-    "453.ed3810f9.chunk.js.map": "/sym-gestao-infos/static/js/453.ed3810f9.chunk.js.map"
+    "main.39508c97.css.map": "/sym-gestao-infos/static/css/main.39508c97.css.map",
+    "main.2ac1ba73.js.map": "/sym-gestao-infos/static/js/main.2ac1ba73.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b0eecb60.js"
+    "static/css/main.39508c97.css",
+    "static/js/main.2ac1ba73.js"
   ]
 }
